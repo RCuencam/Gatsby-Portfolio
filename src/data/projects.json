@@ -1,0 +1,27 @@
+[
+    {
+        "title":"FinanceApp",
+        "description":"Calculadora de Letras para empresas",
+        "demo":"https://finance-aplicaction.netlify.app/",
+        "github":"https://github.com/RCuencam/FinanceApp",
+        "technologies":["HTML","CSS","ReactJS","Context API","Bootstrap"],
+        "url":"https://i.ibb.co/bdZMBQS/Finance-App-4b3f395b884b78f5616d45f224bc9559.png"
+    },
+    {
+        "title":"Sound Perception",
+        "description":"Tienda virtual de intrumentos musicales",
+        "demo":"https://sound-perception.netlify.app/",
+        "github":"https://github.com/RCuencam/Sound-Perception",
+        "technologies":["HTML","CSS","ReactJS","Firebase","Context API","Ant Design"],
+        "url":"https://i.ibb.co/dDGJ1rB/Sound-Perception-8a570130251ffa4f76cb27f7b29319aa.png"
+    },
+    {
+        "title":"Covid-19",
+        "description":"Aplicación para observar estadísticas del Covid-19 por país",
+        "demo":"https://rcuencam.github.io/COVID-19/",
+        "github":"https://github.com/RCuencam/COVID-19",
+        "technologies":["HTML","CSS","Javascript","Google Maps","Bootstrap"],
+        "url":"https://i.ibb.co/YBgPKC5/Covid19-0f1f729385a364c2a52ecd181adf710c.png"
+    }
+    
+]

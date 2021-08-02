@@ -1,0 +1,23 @@
+.about{
+    background: $primary-color;
+    padding: 0 0 1px 0;
+    margin-bottom: 100px;
+    &_content{
+        color: $tertiary-color;
+        text-align: center;
+        margin: 30px auto;
+
+        @include mobile{
+            width: 80%;
+        }
+        @include tablet{
+            width: 60%;
+        }
+        @include desktop{
+            width: 40%;
+        }
+    }
+    & button{
+        @extend %button;
+    }
+}

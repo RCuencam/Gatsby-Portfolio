@@ -1,0 +1,28 @@
+$primary-color: #004049;
+$secondary-color:#A1DBE0;
+$tertiary-color:#fff;
+
+*{
+    font-family: 'Roboto', sans-serif;
+}
+
+%button{
+    width: 200px;
+    background: $secondary-color;
+    color: $primary-color;
+    padding: 8px 10px;
+    border: none;
+    border-radius: 10px;
+    font-weight: 600;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    margin: 15px auto;
+
+    &:hover{
+        filter: contrast(1.2);
+    }
+}
+body{
+    background-color: $primary-color;
+}

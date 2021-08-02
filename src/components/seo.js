@@ -19,6 +19,8 @@ function Seo({ description, lang, meta, title }) {
             title
             description
             author
+            siteUrl
+            twitterUsername
           }
         }
       }
@@ -27,6 +29,8 @@ function Seo({ description, lang, meta, title }) {
 
   const metaDescription = description || site.siteMetadata.description
   const defaultTitle = site.siteMetadata?.title
+  const defaultWeb=site.siteMetadata?.siteUrl
+  const twitter=site.siteMetadata?.twitterUsername
 
   return (
     <Helmet
@@ -50,7 +54,7 @@ function Seo({ description, lang, meta, title }) {
         },
         {
           property: `og:type`,
-          content: `website`,
+          content: defaultWeb,
         },
         {
           name: `twitter:card`,
@@ -62,7 +66,7 @@ function Seo({ description, lang, meta, title }) {
         },
         {
           name: `twitter:title`,
-          content: title,
+          content: twitter,
         },
         {
           name: `twitter:description`,

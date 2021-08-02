@@ -1,0 +1,19 @@
+.projects{
+    background: $primary-color;
+    height: auto;
+    margin-bottom: 100px;
+
+    &-container{
+        @include mobile{
+            width: 100%;
+            margin: 50px auto;
+        }
+        @include min-desktop{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-wrap: wrap;
+            width: 100%;
+        }
+    }
+}

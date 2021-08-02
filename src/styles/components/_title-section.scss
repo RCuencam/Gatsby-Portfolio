@@ -1,0 +1,23 @@
+.title_section{
+    text-align: center;
+    color: $tertiary-color;
+    h1{
+        margin: 0 0 5px 0;
+    }
+}
+.title_underline{
+    background: $secondary-color;
+    height: 7px;
+    border-radius: 5px;
+    margin: 0 auto;
+
+    @include mobile{
+        width: 50%;
+    }
+    @include tablet{
+        width: 30%;
+    }
+    @include desktop{
+        width: 15%;
+    }
+}
